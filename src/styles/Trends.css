@@ -1,0 +1,20 @@
+/* Trends.css - Custom CSS for the dark theme */
+.dark-theme-tile {
+    background-color: #222; /* Set the background color to a dark color */
+    color: #fff; /* Set the text color to white or light color */
+  }
+  
+  .mood-label {
+    color: #fff; /* Set the mood label text color to match the dark theme */
+  }
+  
+
+  /* Calendar.css - Custom CSS for the dark theme */
+.react-calendar__navigation {
+  background-color: #222; /* Set the background color to a dark color */
+  color: #fff; /* Set the text color to white or a light color */
+}
+
+.react-calendar__navigation__arrow {
+  color: #fff; /* Set the arrow color to match the dark theme */
+}

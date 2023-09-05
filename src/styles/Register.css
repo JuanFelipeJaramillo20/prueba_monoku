@@ -1,0 +1,61 @@
+/* Personaliza el fondo y el color de fuente de toda la página */
+body {
+    background-color: #f8f9fa; /* Fondo gris claro */
+    color: #333; /* Color de fuente principal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Estilos para el contenedor del formulario de inicio de sesión */
+  .registration-card {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    border-radius: 5px;
+  }
+  
+  /* Estilos para el formulario */
+  form {
+    margin-top: 15px;
+  }
+  
+  /* Cambia el color de fondo de los campos de entrada y los botones al enfocar */
+  form input[type="text"]:focus,
+  form input[type="password"]:focus,
+  form button[type="submit"]:focus {
+    background-color: #e9ecef; /* Fondo gris claro al enfocar */
+    border-color: #e9ecef; /* Borde gris claro al enfocar */
+  }
+  
+  /* Estilo para el botón de inicio de sesión */
+  form button[type="submit"] {
+    background-color: #007bff; /* Fondo azul */
+    border: none;
+  }
+  
+  /* Cambia el color del botón al pasar el cursor */
+  form button[type="submit"]:hover {
+    background-color: #0056b3; /* Fondo azul oscuro al pasar el cursor */
+  }
+  
+  /* Estilo para el encabezado del formulario */
+  .registration-card .card-header {
+    background-color: #007bff; /* Fondo azul */
+    color: #fff; /* Color de fuente blanco */
+    border: none;
+  }
+  
+  /* Estilo para el enlace "Olvidó su contraseña" */
+  .registration-card a {
+    color: #007bff; /* Color de enlace azul */
+    text-decoration: none;
+  }
+  
+  /* Cambia el color del enlace al pasar el cursor */
+  .registration-card a:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el cursor */
+  }
+  
